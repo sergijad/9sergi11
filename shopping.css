@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background:#eaeaea;
+    
+
+}
+.header{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:30px 8%;
+
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+
+}
+.logo{
+    font-size: 45px;
+    color:#1743e3;
+    text-decoration:none;
+    font-weight: 600;
+    font-style: italic;
+    font-family:fantasy;
+   
+}
+.navbar a {
+        display: inline-block;
+        font-size:18px;
+        color: #222;
+        text-decoration: none;
+        font-weight: 500;
+        margin: 0 20px;
+        transition: 2s;
+}
+.navbar a:hover,
+.navbar a:active {
+    color: #1743e3;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+   
+}
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid transparent;
+    text-decoration: none;
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+.social-media:hover {
+    border-color:#eaeaea;
+
+
+}
+
+
+
+.social-media a i {
+    font-size: 24px;
+    color: red;
+    transform: rotate(-45deg);
+
+}
+.pheading{
+    text-align: center;
+   margin-top: 250px;
+    color: #222;
+}
+
+.sec{
+    padding:10px 5%;
+
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+
+.products .card{
+    width: 310px;
+    background: #8690b6;
+    
+    box-shadow: 0 10px;
+    border-radius: 5px;
+  
+  
+   
+    margin-bottom: 20px;
+    margin-top: 200px;
+
+}
+
+.products .card img{
+    height: 250px;
+    width: 100%;
+    margin-top: 150px;
+    
+}
+.products .card .desc{
+    padding: 5px 20px;
+    opacity:0.8;
+
+}
+
+.products .card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: #222;
+    padding: 0 20px;
+
+}
+
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+
+}
+
+.products .card .box .price{
+    color: #1743e3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.products .card .box .btn{
+    font-size: 13px;
+    color: #1743e3;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid #222;
+    border-radius: 20px;
+    transition: all 0.5s;
+
+
+}
+
+.products .card .box .btn:hover{
+    cursor: pointer;
+    background-color: #222;
+    color: #8690b6;
+
+}
+
+footer{
+    background-color: #1743e3;
+    height: 10vh;
+
+
+}
+footer p{
+    text-align: center;
+    line-height: 10vh;
+
+}
+footer p a{
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+
+}
+
+
+
+.buttonn {
+    width: 180px;
+    height: 60px;
+    background-image: linear-gradient( #1743e3, rgb(158, 129, 254));
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(139, 113, 255);
+    transition-duration: .3s;
+    margin: 0 auto 12px;
+    
+  }
+  
+  .cartIcon {
+    width: 14px;
+    height: fit-content;
+  }
+  
+  .cartIcon path {
+    fill: white;
+  }
+  
+  .buttonn:active {
+    transform: translate(2px ,0px);
+    box-shadow: 0px 1px 0px rgb(139, 113, 255);
+    padding-bottom: 1px;
+  }
+ .pay{
+    text-decoration: none;
+
+ }
